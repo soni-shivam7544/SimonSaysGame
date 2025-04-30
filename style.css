@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+.box{
+    height:200px;
+    width:200px;
+    border: solid black 4px;
+    border-radius: 20%;
+    margin:20px;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#one{
+    background-color:rgb(245, 237, 10)
+}
+#two{
+    background-color:aqua
+}
+#three{
+    background-color:blueviolet
+}
+#four{
+    background-color:rgb(237, 98, 48)
+}
+.box:hover {
+    cursor: pointer;
+    
+}
+.btnClick{
+    
+    background-color:white !important; /* id attribute has more priority than class*/
+}
+button{
+    font-size: 20px;
+}
